@@ -1,0 +1,155 @@
+/* General Work Section Styles */
+.work {
+  color: black;
+  padding: 20px;
+  background-color: #f8f8f8;
+}
+
+/* Work Heading Styles */
+.workheading {
+  font-size: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start; /* Aligns the heading to the start */
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.workheading i {
+  font-size: 1.6rem;
+  color: #007400; /* Main color for icons */
+}
+
+.workheading h2 {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  font-size: 1.8rem;
+  color: #1f65d2;
+  border-bottom: 2px solid #1f65d2;
+  padding-bottom: 10px;
+}
+
+.workheading i{
+  color: #1f65d2 !important;
+}
+
+/* Experience Section Styles */
+.experience {
+  width: 100%;
+  margin: 12px 0; /* Adjusted for better vertical spacing */
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+/* Individual Experience Entry Styles */
+.exp {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  color: #333;
+  background-color: #e6f5e6; /* Light background for contrast */
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s ease; /* Smooth shadow transition */
+}
+
+.exp:hover {
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2); /* Enhanced shadow on hover */
+}
+
+.exp i {
+  font-size: 1.4rem;
+  margin-right: 8px;
+  color: #007400; /* Main color for icons */
+}
+
+.exp h4 {
+  font-size: 1.5rem;
+  display: flex;
+  align-items: center;
+  color: #007400; /* Main color for sub-headings */
+  margin-bottom: 10px;
+}
+
+.exp li {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 8px;
+}
+
+.exp li p {
+  margin: 0;
+  font-size: 1rem;
+}
+
+.exp li p:first-of-type {
+  font-weight: bold;
+  color: #007400; /* Highlight important text */
+}
+
+.exp .Description {
+  font-size: 1rem;
+  line-height: 1.6;
+  margin-top: 10px;
+  color: #444; /* Slightly lighter color for description */
+}
+
+/* History and Achievements Styles */
+.history {
+  color: #007400;
+}
+
+.achievements li p {
+  color: #007400; /* Main color for achievement text */
+}
+
+/* Job Entry Styles */
+.job {
+  /* background-color: #e6f5e6; Light background for contrast */
+  padding: 15px;
+  border-radius: 8px;
+  color: black !important;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px; /* Spacing between jobs */
+  transition: transform 0.2s; /* Smooth scaling transition */
+  background: white !important;
+}
+.job li strong{
+  color: #1f65d2 !important;
+}
+
+.job:hover {
+  transform: scale(1.02); /* Slightly enlarge on hover */
+}
+
+.job h3 {
+  font-size: 1.6rem;
+  color: #007400; /* Main color for headings */
+  margin-bottom: 5px; /* Space below the heading */
+}
+
+.job p {
+  font-size: 1rem;
+  color: #333; /* Darker color for better readability */
+  margin: 5px 0 15px; /* Spacing above and below */
+}
+
+.job ul {
+  list-style-type: none; /* Remove default list styling */
+  padding-left: 0; /* Remove padding for a cleaner look */
+}
+
+.job li {
+  font-size: 0.95rem;
+  color: #444; /* Slightly lighter color for list items */
+  margin-bottom: 8px; /* Spacing between list items */
+}
+
+.job li strong {
+  color: #007400; /* Highlight important text */
+}

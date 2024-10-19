@@ -1,0 +1,15 @@
+.quotaion{
+    background: #08474766;
+    height: 144px;
+    width: 244px;
+    font-size: 1.2rem;
+    margin: 12px auto;
+}
+
+.quotaion p{
+    text-align: center;
+}
+
+.quotaion h3{
+    margin-top: 10px;
+}

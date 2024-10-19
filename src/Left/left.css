@@ -1,0 +1,28 @@
+
+
+.left {
+    display: flex;
+    flex-direction: column;
+    text-align: center; /* Center align text for a more formal look */
+    padding: 20px; /* Increased padding for better spacing */
+    border-radius: 8px; /* Slightly increased border radius for smoother corners */
+    overflow: hidden; /* Ensures that no overflow occurs */
+    width: 40%; /* Retain width for consistent layout */
+    background: #007bff; /* Official color for professionalism */
+    color: white; /* Keep text white for contrast */
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+/* Optional: Adding hover effects for interactivity */
+.left:hover {
+    background: #0056b3; /* Darken background on hover for a professional touch */
+    transition: background 0.3s ease; /* Smooth transition effect */
+}
+
+/* Optional: Adding responsive design for better mobile view */
+@media (max-width: 768px) {
+    .left {
+        width: 100%; /* Full width on smaller screens */
+        margin-bottom: 20px; /* Space between elements */
+    }
+}

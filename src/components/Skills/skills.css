@@ -1,0 +1,117 @@
+.border{
+    /* float: left; */
+    /* width: 100%; */
+    border-bottom:2px solid #007bff;
+}
+
+.Skill{
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    gap: 12px;
+}
+
+.Skill i{
+    font-size: 1.5rem;
+}
+
+.heading i{
+    font-size: 1.5rem;
+}
+
+.flex{
+    gap: 10px;
+}
+
+.Skill li{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    gap: 12px;
+}
+
+.Skill i{
+    font-size: 14px;
+}
+
+.rating{
+    display: flex;
+    gap: 5px;
+}
+
+
+.Skill li span{
+    min-width: 60px;
+}
+
+.SkillContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 150px;
+}
+
+.SkillContainer {
+    display: flex;
+    justify-content: center; /* Center-aligns the container */
+    align-items: flex-start; /* Align items to the top */
+    flex-direction: row; /* Align skills in a row */
+    flex-wrap: wrap; /* Allows items to wrap onto the next line */
+    height: auto; /* Automatic height based on content */
+    padding: 20px; /* Adds padding around the container */
+    margin: 20px auto; /* Centers the container with margin */
+    border: 2px solid #007bff; /* Optional: border to highlight the container */
+    border-radius: 10px; /* Rounded corners for smooth appearance */
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    background-color: #f9f9f9; /* Light background for contrast */
+    max-width: 1200px; /* Sets a maximum width to prevent overflow */
+}
+
+.Skill {
+    display: flex;
+    flex-direction: row; /* Align items horizontally */
+    align-items: center;
+    justify-content: flex-start; /* Align items to the left */
+    gap: 12px; /* Space between items */
+    padding: 10px; /* Inner padding for spacing */
+    margin: 10px; /* Margin around each skill */
+    background-color: #ffffff; /* White background for each skill */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1); /* Light shadow for depth */
+    transition: transform 0.3s ease; /* Smooth transition effect */
+    flex: 1 1 calc(25% - 40px); /* Flexible basis, adjusts to container */
+    min-width: 200px; /* Minimum width for each skill item */
+    max-width: 300px; /* Maximum width to prevent overflow */
+}
+
+.Skill:hover {
+    transform: translateY(-5px); /* Lift effect on hover */
+}
+
+.Skill i {
+    font-size: 1.5rem; /* Uniform icon size */
+    color: #007bff; /* Icon color */
+}
+
+.Skill li {
+    font-size: 1.2rem; /* Text size */
+    color: #333; /* Text color */
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .Skill {
+        flex: 1 1 calc(50% - 40px); /* Adjust width to 50% for medium screens */
+        min-width: 150px; /* Reduce minimum width */
+    }
+}
+
+@media (max-width: 480px) {
+    .Skill {
+        flex: 1 1 calc(100% - 40px); /* Full-width for small screens */
+        min-width: 100%; /* Full-width for small screens */
+    }
+}

@@ -1,0 +1,22 @@
+.city,.phone,.email,.linkedin,.portfolio{
+    display: flex;
+    padding: 3px;
+    margin-left: 15px;
+    margin-top: 5px;
+    background: #08474766;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 8px;
+}
+
+.city,.phone,.email,.linkedin,.portfolio i{
+    padding-left: 12px;
+}
+
+.image{
+    margin-top: 12px;
+    height: 150px;
+    width: 150px;
+}
+
+

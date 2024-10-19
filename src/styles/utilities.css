@@ -1,0 +1,12 @@
+.blue-shade{
+    background: #08474766;
+}
+
+.aqua-shade{
+    background: #3395ff;
+}
+
+.flex{
+    display: flex;
+    align-items: center;
+}

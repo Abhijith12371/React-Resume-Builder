@@ -1,0 +1,89 @@
+/* Scoped styles for the Resume component */
+.resume-form {
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    max-width: 600px;
+    margin: auto;
+}
+
+.resume-form h3 {
+    margin-top: 20px;
+    color: #333;
+}
+
+.resume-form input[type="text"],
+.resume-form input[type="email"],
+.resume-form input[type="number"] {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.resume-form input[type="text"]:focus,
+.resume-form input[type="email"]:focus,
+.resume-form input[type="number"]:focus {
+    border-color: #007bff;
+    outline: none;
+}
+
+.resume-form button {
+    padding: 8px 12px;
+    margin: 5px 0;
+    border: none;
+    border-radius: 4px;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+}
+
+.resume-form button:hover {
+    background-color: #0056b3;
+}
+
+.resume-form button[type="button"] {
+    background-color: #dc3545;
+}
+
+.resume-form button[type="button"]:hover {
+    background-color: #c82333;
+}
+
+.resume-form div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* flex-direction: column; */
+}
+
+.resume-form div input[type="text"],
+.resume-form div input[type="number"] {
+    flex: 1;
+    margin-right: 10px;
+}
+
+.resume-form div button {
+    flex-shrink: 0;
+}
+
+.resume-form div {
+    display: flex;
+    flex-direction: column; /* Ensure items are stacked in a column */
+    align-items: stretch; /* Make inputs and buttons take full width */
+    margin-top: 10px; /* Spacing for better separation */
+}
+
+.resume-form div input[type="text"],
+.resume-form div input[type="number"] {
+    width: 100%; /* Ensure full width for inputs in flex containers */
+    margin-bottom: 10px; /* Spacing between inputs */
+}
+
+.resume-form div button {
+    flex-shrink: 0; /* Prevents button from shrinking in flex context */
+}
+

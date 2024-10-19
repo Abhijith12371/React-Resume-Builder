@@ -1,0 +1,32 @@
+.projects ul{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    gap: 12px;
+    text-align: center;
+    min-height: 100px;
+    margin: auto;
+}
+
+.projects{
+    margin-top: 5px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    align-self: center;
+    min-width:100%;
+}
+
+.projects ul li{
+    padding: 0px 7px 5px 0px;
+    list-style-type: none;
+    float: left;
+    display: flex;
+    align-items: center;
+}
+
+.projects h3{
+    display: flex;
+    gap: 8px;
+}

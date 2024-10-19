@@ -1,0 +1,17 @@
+.certifications-heading h2 {
+  font-size: 2.5rem; /* Increase font size for the heading */
+}
+
+.cert-title {
+  font-size: 1.8rem; /* Increase font size for certification titles */
+}
+
+.cert-label, 
+.cert-value {
+  font-size: 1.2rem; /* Slightly larger font size for labels and values */
+}
+
+.certification{
+  display: flex;
+
+}

@@ -1,0 +1,42 @@
+*{
+    border: 1px solid transparent;
+}
+
+body a{
+    color: white !important;
+    list-style-type: none;
+    text-decoration: none;
+}
+.container{
+    border-radius: 6px;
+    overflow: hidden;
+    width: 70%;
+    /* height: 100vh; */
+    margin: auto;
+    display: flex;
+    /* justify-content: space-between; */
+    /* align-items: center; */
+    min-height: 100vh;
+    box-shadow: 0px 0px 2px black;
+}
+
+
+.left{
+    width: 40%;
+}
+
+.right{
+    width: 60%;
+    margin-left: 14px;
+    color: #007bff;
+}
+
+
+
+.container {
+    width: 816px;  /* Set width for letter size */
+    min-height: 1056px; /* Minimum height for letter size */
+    overflow: visible; /* Ensure the content is fully visible */
+    position: relative; /* Ensure any absolutely positioned elements are within the flow */
+  }
+  
